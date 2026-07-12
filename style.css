@@ -1,0 +1,52 @@
+body {
+    font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+    background: #f0f9ff;
+    color: #1e293b;
+    text-align: center;
+}
+
+#stage {
+    position: relative;
+    width: 960px;
+    height: 534px;
+    margin: 0 auto;
+}
+
+.caption {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.55);
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+}
+.caption p {
+    margin: 0.2rem 0;
+    color: #be185d;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 960px;
+}
+
+.butterfly {
+    position: absolute;
+    width: 80px;
+    left: 440px;
+    top: 230px;
+    transition: left 1s, top 1s;
+}
+
+#foo {
+    position: absolute;
+    width: 56px;
+    left: 560px;
+    top: 220px;
+    transition: left 1.5s, top 1.5s;
+}
